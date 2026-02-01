@@ -35,13 +35,7 @@ const prompt = ai.definePrompt({
   prompt: `You are an expert API designer. Given a website URL and a description of the data to extract, generate a JSON schema and an OpenAPI specification for an API that provides access to that data.
 
 Website URL: {{{url}}}
-Description: {{{description}}}
-
-JSON Schema:
-{{jsonSchema}}
-
-OpenAPI Specification:
-{{openApiSpec}}`,
+Description: {{{description}}}`,
 });
 
 const generateApiSchemaFromDescriptionFlow = ai.defineFlow(
