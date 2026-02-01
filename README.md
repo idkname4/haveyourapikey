@@ -1,5 +1,5 @@
-# Firebase Studio
+(PRD)
 
-This is a NextJS starter in Firebase Studio.
+Project Name (Working): Web2API Agent
 
-To get started, take a look at src/app/page.tsx.
+ Turn any website into a usable, documented API — safely, explainably, and semi-autonomously.
